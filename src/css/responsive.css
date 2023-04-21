@@ -1,4 +1,4 @@
-@media(max-width: 414px) {
+@media(max-width: 425px) {
 
     .container {
         max-width: 100%;
@@ -33,6 +33,7 @@
         margin-right: 110px;
         width: 375px;
         height: 180px;
+        margin-bottom: 15px;
 
     }
 
@@ -45,16 +46,26 @@
         height: 180px;
     }
 
+    .infos .text p {
+        padding-bottom: 20px;
+    }
+
     .infos .text h1 {
         font-size: 23px;
     }
 
-
     .infos .text .btn-register {
+        font-size: larger;
         padding: 10px 80px;
+        cursor: pointer; 
+        margin-bottom: 90px;
     }
 
-    .social .btn-social {
+
+
+    .social {
+        margin: 30px;
+        padding: 30px;
         display: flex;
     }
 

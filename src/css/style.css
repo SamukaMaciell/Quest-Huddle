@@ -43,7 +43,9 @@
     border-radius: 30px;
     color: hsl(257, 40%, 49%);
     transition: 0.3;
+    font-size: 15px;
 }
+
 
 .infos .text .btn-register:hover {
     transition: 0.3s;
@@ -71,3 +73,30 @@
     color: hsl(300, 69%, 71%);
     border: 3px solid hsl(300, 69%, 71%);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.infos .text a  {
+    margin-top: 20px;
+    padding: 5px 50px;
+    border-radius: 30px;
+    color: hsl(257, 40%, 49%);
+    transition: 0.3;
+} */
