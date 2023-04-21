@@ -1,21 +1,20 @@
 
 .container {
-    
     background: url('./src/imagens/bg-desktop.svg') no-repeat center center fixed;
     background-size: cover;
-    background-color: hsl(257, 40%, 49%);
+    background-color:var(--violet);
     display: flex;
     flex-direction: column; 
 }
 
-.logo {
+ .logo {
     padding: 40px 120px;
 
 }
 
 .container .infos {
     display: flex;
-    gap: 100px;
+    gap: 80px;
 }
 
 .container .infos .grafico img{
@@ -41,7 +40,7 @@
     margin-top: 20px;
     padding: 5px 50px;
     border-radius: 30px;
-    color: hsl(257, 40%, 49%);
+    color: var(--violet);
     transition: 0.3;
     font-size: 15px;
 }
@@ -49,7 +48,7 @@
 
 .infos .text .btn-register:hover {
     transition: 0.3s;
-    background-color: hsl(300, 69%, 71%);
+    background-color: var(--Soft-Magenta);
     color: #ffffff;
 }
 
@@ -70,8 +69,8 @@
 
 .social .btn-social i:hover {
     transition: 0.3s;
-    color: hsl(300, 69%, 71%);
-    border: 3px solid hsl(300, 69%, 71%);
+    color: var(--Soft-Magenta);
+    border: 3px solid var(--Soft-Magenta);
 }
 
 

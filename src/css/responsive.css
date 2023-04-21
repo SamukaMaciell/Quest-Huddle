@@ -1,86 +1,110 @@
-@media(max-width: 425px) {
+@media(max-width: 475px) {
 
     .container {
+        display: flex;
         
-        background: url('./src/imagens/bg-desktop.svg') no-repeat center center fixed;
-        background-size: cover;
-        background-color: hsl(257, 40%, 49%);
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
     }
 
-    .logo {
-        display: flex;
+    .container .logo {
+       width: 250px;
+       height: 100px;
+       padding: 0;
+       display: flex;
+       align-items: end;
     }
-
-    .logo img {
-        display: flex;
-        justify-content: flex-start;
-        align-items: flex-start;
-       
+    .container .logo img {
+        margin-bottom: 30px;
+        width: 300px;
+        height: 30px;
+        
     }
-
 
     .container .infos {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-
     }
 
     .container .infos .grafico img {
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-right: 110px;
-        width: 375px;
-        height: 180px;
+        width: 285px;
+        height: 195px;
         margin-bottom: 15px;
+        padding: 0;
 
     }
 
-    .infos .text {
+    .container .infos .text {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         width: 300px;
         height: 180px;
+        text-align: center;
     }
 
-    .infos .text p {
+    .container .infos .text p {
         padding-bottom: 20px;
+        
     }
 
-    .infos .text h1 {
+    .container .infos .text h1 {
         font-size: 23px;
     }
 
-    .infos .text .btn-register {
+    .container .infos .text .btn-register {
         font-size: larger;
-        padding: 10px 80px;
+        padding: 9px 80px;
         cursor: pointer; 
-        margin-bottom: 90px;
+        margin-bottom: 9px;
     }
 
-
-
     .social {
-        margin: 30px;
+        margin: 50px;
         padding: 30px;
         display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .social .btn-social i {
         padding: 10px;
         margin: 8px;
     }
+}
 
+@media(max-width: 768px){
 
+    .infos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center; 
+        text-align: center;   
+    }
 
+    .infos img{
+        width: 700px;
+        padding-right: 100px;
+        padding-top: 10px;
+    }
 
+    .infos .text{
+        margin-bottom: 100px;
+    }
 
+    .social{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 50px;
+        padding: 30px;
+        
+    }
+
+    
 }
